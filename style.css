@@ -1,0 +1,58 @@
+body{
+    background-color: #AD8065 ;
+}
+
+#navbar-topp{
+    background-color: #FAE08C;
+}
+
+/* The Close Button, från w3 schools*/
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-height: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h4{
+  font-family: 'Consolas';
+}
+
+#graphic-bg{
+  position: absolute;
+    width: 40%;
+    background-color:#241b04   ;
+    z-index: -1;
+    border-radius: 50%;
+    left: 33%;
+    top: 20%;
+    height: 40%;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  background-color: #78BFFA;
+  width: 150%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#myShoppingCart:hover{
+  background-color: #78BFFA;
+}
